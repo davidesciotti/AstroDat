@@ -2,8 +2,18 @@
 name = "emulatte"
 readme = "README.md"
 requires-python = ">=3.11"
-authors = [{ "name" = "Neel Shah", "email" = "neel.shah@port.ac.uk" }]
-maintainers = [{ "name" = "Neel Shah", "email" = "neel.shah@port.ac.uk" }]
+#authors = [{ "name" = "Neel Shah", "email" = "neel.shah@port.ac.uk" }]
+authors = [{name = "Beth McCarthy Gould"},
+           {name = "Carola Zanoletti"},
+           {name = "David Sciotti"},
+           {name = "Kiyam Lin"},
+           {name = "Neel Shah"}]
+#maintainers = [{ "name" = "Neel Shah", "email" = "neel.shah@port.ac.uk" }]
+maintainers = [{name = "Beth McCarthy Gould"},
+               {name = "Carola Zanoletti"},
+               {name = "David Sciotti"},
+               {name = "Kiyam Lin"},
+               {name = "Neel Shah"}]
 description = "This is an example cosmology package."
 dependencies = ["numpy"]
 version = "0.0.1"
