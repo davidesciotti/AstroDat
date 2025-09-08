@@ -1,0 +1,36 @@
+[project]
+name = "emulatte"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ "name" = "Neel Shah", "email" = "neel.shah@port.ac.uk" }]
+maintainers = [{ "name" = "Neel Shah", "email" = "neel.shah@port.ac.uk" }]
+description = "This is an example cosmology package."
+dependencies = ["numpy"]
+version = "0.0.1"
+
+[project.optional-dependencies]
+docs = [
+    "myst-parser",
+    "numpydoc",
+    "sphinx",
+    "sphinx-book-theme",
+]
+
+test = [
+    "pytest",
+    "pytest-cov",
+    "pytest-emoji",
+    "pytest-pydocstyle",
+]
+
+lint = ["black", "isort"]
+release = ["build", "twine"]
+
+dev = ["mycosmo[docs,lint,release,test]"]
+
+[tool.pydocstyle]
+convention = "numpy"
+
+[tool.pytest.ini_options]
+addopts = ["--verbose", "--emoji", "--pydocstyle", "--cov=mycosmo"]
+testpaths = ["mycosmo"]
