@@ -15,7 +15,7 @@ maintainers = [{name = "Beth McCarthy Gould"},
                {name = "Kiyam Lin"},
                {name = "Neel Shah"}]
 description = "This is an example cosmology package."
-dependencies = ["numpy"]
+dependencies = ["numpy", "euclidemu2", "cosmopower-jax", "sbi"]
 version = "0.0.1"
 
 [project.optional-dependencies]
