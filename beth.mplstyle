@@ -1,0 +1,22 @@
+axes.titlesize : 14
+axes.labelsize : 14
+legend.fontsize: 13
+xtick.labelsize : 14
+ytick.labelsize : 14
+axes.spines.right: True
+axes.spines.top: True
+xtick.top: True
+ytick.right: True
+xtick.direction: in
+ytick.direction: in
+xtick.minor.visible: True
+xtick.minor.size: 1.2
+ytick.minor.visible: True
+ytick.minor.size: 1.2
+xtick.major.size: 4.0
+ytick.major.size: 4.0
+lines.linewidth: 1.5
+
+legend.labelspacing: 0.4
+legend.handletextpad: 0.4
+legend.columnspacing: 1.0
